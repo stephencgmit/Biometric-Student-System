@@ -2,7 +2,7 @@
 
 Imported from PyCharm project folder.
 
-Most code I've written in sqlite folder. Code contains basic student register/login system checking sqlite database for their credentials. 
+Most code I've written in sqlite3 folder. Code contains basic student register/login system checking sqlite database for their credentials. 
 If student successfully logs in, they can do a quiz which runs/ is imported from another python file
 Also option for an admin user to delete students from database and show all users.
 
