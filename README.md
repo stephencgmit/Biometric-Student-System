@@ -10,5 +10,5 @@ Also option for an admin user to delete students from database and show all user
 
 ---------------------
 04/12/18 update
-Some integration of code done so far with mySQL & fingerprint module. In proj2019/FingerprintLoginCode/files/examples/ files, I'm using main.py to have a basic functional login system using a r307 fingerprint module on the Raspberry Pi using and developing libraries I researched would work with the RPi.
+Some integration of code done so far with mySQL & fingerprint module. In proj2019/FingerprintLoginCode/files/examples/ files, I'm using main.py to have a basic functional login system with a r307 fingerprint module on the Raspberry Pi using and developing libraries I researched would work with the RPi.
 
