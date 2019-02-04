@@ -1,12 +1,11 @@
-## Tutorial code learning Flask web development framework for Python
-
 from flask import Flask, render_template
 
 app = Flask(__name__)
 
-# @app.route("/profile/<name>")
-# def profile(name):
-#    return render_template("profile.html",name=name)
+
+@app.route("/login/<name>")
+def profile(name):
+    return render_template("login.html",name=name)
 
 
 # @app.route("/bacon", methods=['GET', 'POST'])
@@ -25,10 +24,6 @@ app = Flask(__name__)
 def index(user=None):
     return render_template("user.html", user=user)
 
-@app.route("/shopping")
-def shopping():
-    food = ["Cheese", "Tuna", "Beef"]
-    return render_template("shopping.html", food=food)
 
 if __name__ == "__main__":
 
