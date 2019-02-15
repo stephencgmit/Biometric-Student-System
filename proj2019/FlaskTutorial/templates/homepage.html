@@ -1,49 +1,61 @@
-<!doctype html>
-<title>Homepage</title>
+<!--<!DOCTYPE html>-->
+<!--{% if user %}-->
+    <!--<h1>Hello {{user}}</h1>-->
+<!--{% else %}-->
+    <!--<h1>Please log in</h1>-->
+<!--{% endif %}-->
+
+<!--<!DOCTYPE html>-->
+<!--{% if user %}-->
+    <!--<h1>Hello {{user}}</h1>-->
+<!--{% else %}-->
+    <!--<h1>Please log in</h1>-->
+<!--{% endif %}-->
+
+<!DOCTYPE html>
+<html lang="en">
 <style>
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    margin: 0;
-  }
-  #main {
-    display: flex;
-    flex: 1;
-  }
-  #main > article {
-    flex: 1;
-    order: 1;
-  }
-  #main > nav,
-  #main > aside {
-    flex: 0 0 20vw;
-  }
-  #main > nav {
-    background: #D7E8D4;
-    order: 3;
-  }
-  #main > aside {
-    background: beige;
-    order: 2;
-  }
-  header, footer {
-    background: yellowgreen;
-    height: 20vh;
-  }
-  header, footer, article, nav, aside {
-    padding: 1em;
-  }
+a:link, a:visited {
+    align-items: center;
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+    align-content: center;
+    text-align-all: center;
+
+}
+
+a:hover, a:active {
+  background-color: red;
+    align-items: center;
+align-content: center;
+      text-align: center;
+
+}
 </style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+</head>
 <body>
-  <header>Homepage Header</header>
-  <div id="main">
-    <article>Article</article>
-    <nav>Nav</nav>
-    <aside>Aside</aside>
-  </div>
-  <footer>Footer</footer>
+
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1>Welcome to Raspberry Pi College</h1>
+    </div>
+    </div>
+
+<br>
+<a href="/login" target="_blank">This is a link to Login</a>
+</br><br>
+<a href="/register" target="_blank">This is a link to Register</a>
+</br>
+</div>
 </body>
+</html>
